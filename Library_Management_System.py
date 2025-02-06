@@ -1,7 +1,19 @@
 # Library Management System
 # Stores books in a list of dictionaries with basic operations
 # Each book is a dictionary with: title, author, ISBN, and availability
-books = []
+books = [
+    {"title": "The Lord of the Rings", "author": "J.R.R. Tolkien", "isbn": "9780261102385", "available": True},
+    {"title": "The Hobbit", "author": "J.R.R. Tolkien", "isbn": "9780345339683", "available": True},
+    {"title": "A Game of Thrones", "author": "George R.R. Martin", "isbn": "9780553103540", "available": True},
+    {"title": "1984", "author": "George Orwell", "isbn": "9780451524935", "available": True},
+    {"title": "The Brothers Karamazov", "author": "Fyodor Dostoevsky", "isbn": "9780374528379", "available": True},
+    {"title": "The Divine Comedy", "author": "Dante Alighieri", "isbn": "9780140448955", "available": True},
+    {"title": "The Da Vinci Code", "author": "Dan Brown", "isbn": "9780307474278", "available": True},
+    {"title": "War and Peace", "author": "Leo Tolstoy", "isbn": "9781400079988", "available": True},
+    {"title": "Lord of the Flies", "author": "William Golding", "isbn": "9780399501487", "available": True},
+    {"title": "The Prince", "author": "Niccolò Machiavelli", "isbn": "9780140441079", "available": True},
+    {"title": "Pinocchio", "author": "Carlo Collodi", "isbn": "9780141331645", "available": True}
+]
 
 # Display the main menu and get the user choice
 def main_menu():
